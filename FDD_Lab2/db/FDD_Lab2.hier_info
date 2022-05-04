@@ -1,0 +1,150 @@
+|FDD_Lab2
+C1 <= 7SegDecoder:inst4.a
+SW2 => 7SegDecoder:inst4.Y
+SW2 => TetralAdder:inst.A2
+SW3 => 7SegDecoder:inst4.X
+SW3 => TetralAdder:inst.A1
+C2 <= 7SegDecoder:inst4.b
+C3 <= 7SegDecoder:inst4.c
+C4 <= 7SegDecoder:inst4.d
+C5 <= 7SegDecoder:inst4.e
+C6 <= 7SegDecoder:inst4.f
+C7 <= 7SegDecoder:inst4.g
+C8 <= 7SegDecoder:inst5.a
+SW0 => 7SegDecoder:inst5.Y
+SW0 => TetralAdder:inst.B2
+SW1 => 7SegDecoder:inst5.X
+SW1 => TetralAdder:inst.B1
+C9 <= 7SegDecoder:inst5.b
+C10 <= 7SegDecoder:inst5.c
+C11 <= 7SegDecoder:inst5.d
+C12 <= 7SegDecoder:inst5.e
+C13 <= 7SegDecoder:inst5.f
+C14 <= 7SegDecoder:inst5.g
+C15 <= 7SegDecoder:inst6.a
+C16 <= 7SegDecoder:inst6.b
+C17 <= 7SegDecoder:inst6.c
+C18 <= 7SegDecoder:inst6.d
+C19 <= 7SegDecoder:inst6.e
+C20 <= 7SegDecoder:inst6.f
+C21 <= 7SegDecoder:inst6.g
+C22 <= 7SegDecoder:inst7.a
+C23 <= 7SegDecoder:inst7.b
+C24 <= 7SegDecoder:inst7.c
+C25 <= 7SegDecoder:inst7.d
+C26 <= 7SegDecoder:inst7.e
+C27 <= 7SegDecoder:inst7.f
+C28 <= 7SegDecoder:inst7.g
+
+
+|FDD_Lab2|7SegDecoder:inst4
+a <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst.IN0
+Y => inst6.IN0
+Y => inst2.IN0
+Y => inst4.IN0
+Y => inst3.IN0
+X => inst5.IN1
+X => inst1.IN0
+X => inst7.IN1
+X => e.DATAIN
+X => inst4.IN1
+b <= <GND>
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= X.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FDD_Lab2|7SegDecoder:inst5
+a <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst.IN0
+Y => inst6.IN0
+Y => inst2.IN0
+Y => inst4.IN0
+Y => inst3.IN0
+X => inst5.IN1
+X => inst1.IN0
+X => inst7.IN1
+X => e.DATAIN
+X => inst4.IN1
+b <= <GND>
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= X.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FDD_Lab2|7SegDecoder:inst6
+a <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst.IN0
+Y => inst6.IN0
+Y => inst2.IN0
+Y => inst4.IN0
+Y => inst3.IN0
+X => inst5.IN1
+X => inst1.IN0
+X => inst7.IN1
+X => e.DATAIN
+X => inst4.IN1
+b <= <GND>
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= X.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FDD_Lab2|TetralAdder:inst
+C1 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst13.IN0
+A2 => inst14.IN1
+A2 => inst16.IN1
+A2 => inst9.IN0
+A2 => inst17.IN1
+A2 => inst32.IN0
+B1 => inst13.IN1
+B1 => inst12.IN1
+B1 => inst10.IN0
+B1 => inst17.IN2
+B1 => inst28.IN2
+B1 => inst29.IN1
+B2 => inst13.IN2
+B2 => inst14.IN2
+B2 => inst16.IN3
+B2 => inst17.IN3
+B2 => inst11.IN0
+B2 => inst31.IN1
+A1 => inst14.IN0
+A1 => inst12.IN0
+A1 => inst8.IN0
+A1 => inst26.IN0
+A1 => inst17.IN0
+A1 => inst27.IN0
+C2 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+C3 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+C4 <= <GND>
+
+
+|FDD_Lab2|7SegDecoder:inst7
+a <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst.IN0
+Y => inst6.IN0
+Y => inst2.IN0
+Y => inst4.IN0
+Y => inst3.IN0
+X => inst5.IN1
+X => inst1.IN0
+X => inst7.IN1
+X => e.DATAIN
+X => inst4.IN1
+b <= <GND>
+c <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= X.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

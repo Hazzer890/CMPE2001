@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/19776219/Downloads/FDD_Lab2/FDD_Lab2.bdf
+source_file = 1, FDD_Lab2_new.bdf
+source_file = 1, C:/Users/19776219/Downloads/FDD_Lab2/db/FDD_Lab2.cbx.xml
+design_name = FDD_Lab2
+instance = comp, \T~output\, T~output, FDD_Lab2, 1
+instance = comp, \V~output\, V~output, FDD_Lab2, 1
+instance = comp, \W~output\, W~output, FDD_Lab2, 1
+instance = comp, \X~output\, X~output, FDD_Lab2, 1
+instance = comp, \Y~output\, Y~output, FDD_Lab2, 1
+instance = comp, \Z~output\, Z~output, FDD_Lab2, 1
+instance = comp, \A~input\, A~input, FDD_Lab2, 1
+instance = comp, \D~input\, D~input, FDD_Lab2, 1
+instance = comp, \C~input\, C~input, FDD_Lab2, 1
+instance = comp, \B~input\, B~input, FDD_Lab2, 1
+instance = comp, \inst12~0\, inst12~0, FDD_Lab2, 1
+instance = comp, \inst21~0\, inst21~0, FDD_Lab2, 1
